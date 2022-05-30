@@ -1,26 +1,51 @@
- var a=12;
 
- var b=23;
+    
 
- function add(a,b) {
-     total=a+b;
 
-     console.log(total);
-     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ var w="hard work";
+
+ var q="smart work";
+
+ var greet =w + q;
+
+ console.log(greet);
+
+ function mahi(a,b) {
+
+    if (a===b){
+        return 0;
+    }
+     if(a>b){
+         return 1;
+     }
+     return -1;
  }
- add();
- console.log(a,"",b);
 
-
- var a="mahendra";
- var b="naik";
- 
- function add() {
-     sum=a+b;
-     console.log(sum);
-     
- };
-
- add();
-
- console.log(a,"",b);
+ console.log(mahi("hello", "world"))
+ console.log(mahi("hello" ,"hello"))
+ console.log(mahi("world", "hello"))
