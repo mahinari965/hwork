@@ -77,3 +77,48 @@ let d= fullname(2,3,4,5);
 console.log(x);
 
 console.log(d);
+
+
+
+function mahi() {
+    var b="nari";
+    function inner(){
+        return b;
+
+    }
+    return inner;
+    
+}
+
+var get_function_inner = mahi();
+console.log(get_function_inner);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
